@@ -1,0 +1,21 @@
+{
+  "name": "ส่งเสริมการเกษตร มหาวิทยาลัยศิลปากร",
+  "short_name": "เกษตรศิลปากร",
+  "description": "เครือข่ายส่งเสริมการเกษตรอัจฉริยะ คณะสัตวศาสตร์และเทคโนโลยีการเกษตร",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fcfdfc",
+  "theme_color": "#00816a",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1892/1892747.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1892/1892747.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
