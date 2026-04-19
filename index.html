@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>ส่งเสริมการเกษตร - มหาวิทยาลัยศิลปากร</title>
     
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="./manifest.json">
     <meta name="theme-color" content="#00816a">
     <meta name="description" content="เครือข่ายส่งเสริมการเกษตรอัจฉริยะ คณะสัตวศาสตร์และเทคโนโลยีการเกษตร มหาวิทยาลัยศิลปากร">
     
@@ -182,9 +182,10 @@
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/sw.js')
+                // แก้ไขเป็น ./ 
+                navigator.serviceWorker.register('./sw.js')
                 .then(registration => {
-                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                    console.log('ServiceWorker registration successful');
                 })
                 .catch(err => {
                     console.log('ServiceWorker registration failed: ', err);
