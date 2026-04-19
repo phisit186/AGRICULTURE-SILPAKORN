@@ -2,7 +2,7 @@
   "name": "ส่งเสริมการเกษตร มหาวิทยาลัยศิลปากร",
   "short_name": "เกษตรศิลปากร",
   "description": "เครือข่ายส่งเสริมการเกษตรอัจฉริยะ คณะสัตวศาสตร์และเทคโนโลยีการเกษตร",
-  "start_url": "/index.html",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#fcfdfc",
   "theme_color": "#00816a",
